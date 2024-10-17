@@ -1,0 +1,9 @@
+/Users/kuka/Library/Android/sdk/cmake/3.22.1/bin/ninja \
+  -C \
+  /Users/kuka/StudioProjects/ics-openvpn/main/.cxx/Debug/47576z2g/arm64-v8a \
+  libovpnexec.so \
+  openvpn \
+  osslspeedtest \
+  osslutil \
+  ovpn3 \
+  ovpnutil

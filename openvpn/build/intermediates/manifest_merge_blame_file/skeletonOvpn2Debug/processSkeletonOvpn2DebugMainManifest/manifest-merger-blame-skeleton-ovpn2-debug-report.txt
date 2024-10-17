@@ -1,0 +1,369 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright (c) 2012-2019 Arne Schwabe
+4  ~ Distributed under the GNU GPL v2 with additional terms. For full terms see the file doc/LICENSE.txt
+5-->
+6<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+7    package="de.blinkt.openvpn"
+8    android:versionCode="208"
+9    android:versionName="0.7.53-o2" >
+10
+11    <uses-sdk
+12        android:minSdkVersion="21"
+13        android:targetSdkVersion="35" />
+14
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:5:5-67
+15-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:5:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:6:5-79
+16-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:6:22-76
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:7:5-81
+17-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:7:22-78
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:8:5-80
+18-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:8:22-77
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:9:5-77
+19-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:9:22-74
+20    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+20-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:10:5-77
+20-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:10:22-74
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+21-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:11:5-89
+21-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:11:22-86
+22    <!--
+23 Used to show all apps in the allowed Apps selection,
+24         this app needs the list the app in the allow/deny apps over the VPN
+25    -->
+26    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+26-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:15:5-16:57
+26-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:15:22-74
+27
+28    <permission
+28-->[androidx.core:core:1.13.1] /Users/kuka/.gradle/caches/transforms-4/47dedd893545835ee7af87ac436cfe55/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+29        android:name="de.blinkt.openvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.13.1] /Users/kuka/.gradle/caches/transforms-4/47dedd893545835ee7af87ac436cfe55/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.13.1] /Users/kuka/.gradle/caches/transforms-4/47dedd893545835ee7af87ac436cfe55/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="de.blinkt.openvpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+32-->[androidx.core:core:1.13.1] /Users/kuka/.gradle/caches/transforms-4/47dedd893545835ee7af87ac436cfe55/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.13.1] /Users/kuka/.gradle/caches/transforms-4/47dedd893545835ee7af87ac436cfe55/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+33
+34    <application
+34-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:28:5-152:19
+35        android:name="de.blinkt.openvpn.core.ICSOpenVPNApplication"
+35-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:29:9-51
+36        android:allowBackup="true"
+36-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:30:9-35
+37        android:appCategory="productivity"
+37-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:31:9-43
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.13.1] /Users/kuka/.gradle/caches/transforms-4/47dedd893545835ee7af87ac436cfe55/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+39        android:debuggable="true"
+40        android:extractNativeLibs="true"
+41        android:icon="@mipmap/ic_launcher"
+41-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:32:9-43
+42        android:label="@string/app"
+42-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:34:9-36
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:33:9-54
+44        android:supportsRtl="true"
+44-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:35:9-35
+45        android:testOnly="true"
+46        android:theme="@style/blinkt" >
+46-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:36:9-38
+47        <activity
+47-->/Users/kuka/StudioProjects/ics-openvpn/main/src/skeleton/AndroidManifest.xml:10:9-13:47
+48            android:name="de.blinkt.openvpn.activities.NotImplemented"
+48-->/Users/kuka/StudioProjects/ics-openvpn/main/src/skeleton/AndroidManifest.xml:12:13-54
+49            android:exported="true" />
+49-->/Users/kuka/StudioProjects/ics-openvpn/main/src/skeleton/AndroidManifest.xml:11:17-40
+50
+51        <activity-alias
+51-->/Users/kuka/StudioProjects/ics-openvpn/main/src/skeleton/AndroidManifest.xml:21:9-25:19
+52            android:name="de.blinkt.openvpn.activities.Req"
+52-->/Users/kuka/StudioProjects/ics-openvpn/main/src/skeleton/AndroidManifest.xml:23:17-47
+53            android:exported="true"
+53-->/Users/kuka/StudioProjects/ics-openvpn/main/src/skeleton/AndroidManifest.xml:22:17-40
+54            android:targetActivity="de.blinkt.openvpn.activities.NotImplemented" />
+54-->/Users/kuka/StudioProjects/ics-openvpn/main/src/skeleton/AndroidManifest.xml:24:17-68
+55        <activity-alias
+55-->/Users/kuka/StudioProjects/ics-openvpn/main/src/skeleton/AndroidManifest.xml:15:9-19:15
+56            android:name="de.blinkt.openvpn.activities.LogWindow"
+56-->/Users/kuka/StudioProjects/ics-openvpn/main/src/skeleton/AndroidManifest.xml:17:17-53
+57            android:exported="true"
+57-->/Users/kuka/StudioProjects/ics-openvpn/main/src/skeleton/AndroidManifest.xml:16:17-40
+58            android:targetActivity="de.blinkt.openvpn.activities.NotImplemented" />
+58-->/Users/kuka/StudioProjects/ics-openvpn/main/src/skeleton/AndroidManifest.xml:18:17-68
+59
+60        <meta-data
+60-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:38:9-40:56
+61            android:name="android.content.APP_RESTRICTIONS"
+61-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:39:13-60
+62            android:resource="@xml/app_restrictions" />
+62-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:40:13-53
+63
+64        <activity
+64-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:42:9-48:52
+65            android:name="de.blinkt.openvpn.activities.DisconnectVPN"
+65-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:43:13-53
+66            android:autoRemoveFromRecents="true"
+66-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:44:13-49
+67            android:excludeFromRecents="true"
+67-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:45:13-46
+68            android:noHistory="true"
+68-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:46:13-37
+69            android:taskAffinity=".DisconnectVPN"
+69-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:47:13-50
+70            android:theme="@style/blinkt.dialog" />
+70-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:48:13-49
+71
+72        <service
+72-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:51:9-62:19
+73            android:name="de.blinkt.openvpn.core.OpenVPNService"
+73-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:52:13-48
+74            android:exported="true"
+74-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:53:13-36
+75            android:foregroundServiceType="specialUse"
+75-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:55:13-55
+76            android:permission="android.permission.BIND_VPN_SERVICE"
+76-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:54:13-69
+77            android:process=":openvpn" >
+77-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:56:13-39
+78            <intent-filter>
+78-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:57:13-59:29
+79                <action android:name="android.net.VpnService" />
+79-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:58:17-65
+79-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:58:25-62
+80            </intent-filter>
+81
+82            <property
+82-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:60:13-104
+83                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+83-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:60:23-82
+84                android:value="vpn" />
+84-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:60:83-102
+85        </service>
+86        <service
+86-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:63:9-71:19
+87            android:name="de.blinkt.openvpn.api.ExternalOpenVPNService"
+87-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:64:13-55
+88            android:exported="true"
+88-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:66:13-36
+89            android:process=":openvpn" >
+89-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:65:13-39
+90            <intent-filter>
+90-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:68:13-70:29
+91                <action android:name="de.blinkt.openvpn.api.IOpenVPNAPIService" />
+91-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:69:17-83
+91-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:69:25-80
+92            </intent-filter>
+93        </service>
+94        <service
+94-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:72:9-75:42
+95            android:name="de.blinkt.openvpn.core.OpenVPNStatusService"
+95-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:73:13-54
+96            android:exported="false"
+96-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:74:13-37
+97            android:process=":openvpn" />
+97-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:75:13-39
+98
+99        <activity
+99-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:77:9-82:20
+100            android:name="de.blinkt.openvpn.api.GrantPermissionsActivity"
+100-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:77:19-63
+101            android:exported="true" >
+101-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:78:17-40
+102            <intent-filter>
+102-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:79:13-81:29
+103                <action android:name="android.intent.action.MAIN" />
+103-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:80:17-69
+103-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:80:25-66
+104            </intent-filter>
+105        </activity>
+106        <activity
+106-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:83:9-88:20
+107            android:name="de.blinkt.openvpn.api.ConfirmDialog"
+107-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:83:19-52
+108            android:exported="true" >
+108-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:84:17-40
+109            <intent-filter>
+109-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:79:13-81:29
+110                <action android:name="android.intent.action.MAIN" />
+110-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:80:17-69
+110-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:80:25-66
+111            </intent-filter>
+112        </activity>
+113
+114        <receiver
+114-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:90:9-96:20
+115            android:name="de.blinkt.openvpn.OnBootReceiver"
+115-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:90:19-49
+116            android:exported="true" >
+116-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:91:17-40
+117            <intent-filter android:priority="999" >
+117-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:92:13-95:29
+117-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:92:28-50
+118                <action android:name="android.intent.action.BOOT_COMPLETED" />
+118-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:93:17-79
+118-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:93:25-76
+119                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+119-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:94:17-84
+119-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:94:25-81
+120            </intent-filter>
+121        </receiver>
+122
+123        <service
+123-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:98:9-101:75
+124            android:name="de.blinkt.openvpn.core.keepVPNAlive"
+124-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:98:18-51
+125            android:exported="true"
+125-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:100:17-40
+126            android:permission="android.permission.BIND_JOB_SERVICE"
+126-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:101:17-73
+127            android:process=":openvpn" />
+127-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:99:17-43
+128
+129        <activity
+129-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:104:9-118:20
+130            android:name="de.blinkt.openvpn.LaunchVPN"
+130-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:105:13-38
+131            android:autoRemoveFromRecents="true"
+131-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:106:13-49
+132            android:excludeFromRecents="true"
+132-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:107:13-46
+133            android:exported="true"
+133-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:111:13-36
+134            android:label="@string/vpn_launch_title"
+134-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:108:13-53
+135            android:taskAffinity=".LaunchVPN"
+135-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:109:13-46
+136            android:theme="@style/blinkt.dialog" >
+136-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:110:13-49
+137            <intent-filter>
+137-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:113:13-117:29
+138                <action android:name="android.intent.action.MAIN" />
+138-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:80:17-69
+138-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:80:25-66
+139
+140                <category android:name="android.intent.category.DEFAULT" />
+140-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:116:17-76
+140-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:116:27-73
+141            </intent-filter>
+142        </activity>
+143        <!--
+144        <receiver android:name="core.GetRestrictionReceiver">
+145            <intent-filter>
+146                <action android:name="android.intent.action.GET_RESTRICTION_ENTRIES" />
+147            </intent-filter>
+148        </receiver>
+149        -->
+150        <activity
+150-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:126:9-133:19
+151            android:name="de.blinkt.openvpn.api.RemoteAction"
+151-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:126:19-51
+152            android:autoRemoveFromRecents="true"
+152-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:128:17-53
+153            android:excludeFromRecents="true"
+153-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:129:17-50
+154            android:launchMode="singleInstance"
+154-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:127:17-52
+155            android:noHistory="true"
+155-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:132:17-41
+156            android:taskAffinity=".LaunchVPN"
+156-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:130:17-50
+157            android:theme="@style/blinkt.dialog" />
+157-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:131:17-53
+158
+159        <activity-alias
+159-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:147:9-150:62
+160            android:name="de.blinkt.openvpn.api.ResumeVPN"
+160-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:148:17-46
+161            android:exported="true"
+161-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:149:17-40
+162            android:targetActivity="de.blinkt.openvpn.api.RemoteAction" />
+162-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:150:17-59
+163        <activity-alias
+163-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:143:9-146:62
+164            android:name="de.blinkt.openvpn.api.PauseVPN"
+164-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:144:17-45
+165            android:exported="true"
+165-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:145:17-40
+166            android:targetActivity="de.blinkt.openvpn.api.RemoteAction" />
+166-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:146:17-59
+167        <activity-alias
+167-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:139:9-142:58
+168            android:name="de.blinkt.openvpn.api.DisconnectVPN"
+168-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:140:13-46
+169            android:exported="true"
+169-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:141:13-36
+170            android:targetActivity="de.blinkt.openvpn.api.RemoteAction" />
+170-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:142:13-55
+171        <activity-alias
+171-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:135:9-138:58
+172            android:name="de.blinkt.openvpn.api.ConnectVPN"
+172-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:136:13-43
+173            android:exported="true"
+173-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:137:13-36
+174            android:targetActivity="de.blinkt.openvpn.api.RemoteAction" />
+174-->/Users/kuka/StudioProjects/ics-openvpn/main/src/main/AndroidManifest.xml:138:13-55
+175
+176        <provider
+176-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+177            android:name="androidx.startup.InitializationProvider"
+177-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:25:13-67
+178            android:authorities="de.blinkt.openvpn.androidx-startup"
+178-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:26:13-68
+179            android:exported="false" >
+179-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:27:13-37
+180            <meta-data
+180-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+181                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+181-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+182                android:value="androidx.startup" />
+182-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+183        </provider>
+184
+185        <receiver
+185-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+186            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+186-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+187            android:directBootAware="false"
+187-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+188            android:enabled="true"
+188-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+189            android:exported="true"
+189-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+190            android:permission="android.permission.DUMP" >
+190-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+191            <intent-filter>
+191-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+192                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+192-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+192-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+193            </intent-filter>
+194            <intent-filter>
+194-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+195                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+195-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+195-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+196            </intent-filter>
+197            <intent-filter>
+197-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+198                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+198-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+198-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+199            </intent-filter>
+200            <intent-filter>
+200-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+201                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+201-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+201-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+202            </intent-filter>
+203        </receiver>
+204    </application>
+205
+206</manifest>

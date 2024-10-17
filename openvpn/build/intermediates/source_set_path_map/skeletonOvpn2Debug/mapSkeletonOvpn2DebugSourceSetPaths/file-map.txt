@@ -1,0 +1,17 @@
+de.blinkt.openvpn.main-core-1.13.1-0 /Users/kuka/.gradle/caches/transforms-4/47dedd893545835ee7af87ac436cfe55/transformed/core-1.13.1/res
+de.blinkt.openvpn.main-annotation-experimental-1.4.0-1 /Users/kuka/.gradle/caches/transforms-4/4c6b1c0cd998d7ecb443a3d4e8d97fe8/transformed/annotation-experimental-1.4.0/res
+de.blinkt.openvpn.main-startup-runtime-1.1.1-2 /Users/kuka/.gradle/caches/transforms-4/59156b8fcbaa47c523554becaf0f0f4d/transformed/startup-runtime-1.1.1/res
+de.blinkt.openvpn.main-profileinstaller-1.3.0-3 /Users/kuka/.gradle/caches/transforms-4/8fa739b785bc2e0fdb58f0d8edb81e17/transformed/profileinstaller-1.3.0/res
+de.blinkt.openvpn.main-lifecycle-runtime-2.6.2-4 /Users/kuka/.gradle/caches/transforms-4/99ff45265968cb24c5ee51a10e2af21b/transformed/lifecycle-runtime-2.6.2/res
+de.blinkt.openvpn.main-core-runtime-2.2.0-5 /Users/kuka/.gradle/caches/transforms-4/c262dc5cc969226d65d6fd0a8064f0cc/transformed/core-runtime-2.2.0/res
+de.blinkt.openvpn.main-skeletonOvpn2-6 /Users/kuka/StudioProjects/ics-openvpn/main/build/generated/res/pngs/skeletonOvpn2/debug
+de.blinkt.openvpn.main-skeletonOvpn2-7 /Users/kuka/StudioProjects/ics-openvpn/main/build/generated/res/resValues/skeletonOvpn2/debug
+de.blinkt.openvpn.main-mergeSkeletonOvpn2DebugResources-8 /Users/kuka/StudioProjects/ics-openvpn/main/build/intermediates/incremental/skeletonOvpn2Debug/mergeSkeletonOvpn2DebugResources/merged.dir
+de.blinkt.openvpn.main-mergeSkeletonOvpn2DebugResources-9 /Users/kuka/StudioProjects/ics-openvpn/main/build/intermediates/incremental/skeletonOvpn2Debug/mergeSkeletonOvpn2DebugResources/stripped.dir
+de.blinkt.openvpn.main-skeletonOvpn2Debug-10 /Users/kuka/StudioProjects/ics-openvpn/main/build/intermediates/merged_res/skeletonOvpn2Debug/mergeSkeletonOvpn2DebugResources
+de.blinkt.openvpn.main-debug-11 /Users/kuka/StudioProjects/ics-openvpn/main/src/debug/res
+de.blinkt.openvpn.main-main-12 /Users/kuka/StudioProjects/ics-openvpn/main/src/main/res
+de.blinkt.openvpn.main-ovpn2-13 /Users/kuka/StudioProjects/ics-openvpn/main/src/ovpn2/res
+de.blinkt.openvpn.main-skeleton-14 /Users/kuka/StudioProjects/ics-openvpn/main/src/skeleton/res
+de.blinkt.openvpn.main-skeletonOvpn2-15 /Users/kuka/StudioProjects/ics-openvpn/main/src/skeletonOvpn2/res
+de.blinkt.openvpn.main-skeletonOvpn2Debug-16 /Users/kuka/StudioProjects/ics-openvpn/main/src/skeletonOvpn2Debug/res

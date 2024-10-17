@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "de.blinkt.openvpn.main-mergeSkeletonOvpn2DebugResources-8:/values-de/values-de.xml",
+            "map": [
+                {
+                    "source": "/Users/kuka/StudioProjects/ics-openvpn/main/src/main/res/values-de/bools.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "211",
+                        "endColumns": "52",
+                        "endOffsets": "259"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "52",
+                        "endOffsets": "103"
+                    }
+                },
+                {
+                    "source": "/Users/kuka/.gradle/caches/transforms-4/47dedd893545835ee7af87ac436cfe55/transformed/core-1.13.1/res/values-de/values-de.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,355,455,563,668,786",
+                        "endColumns": "97,101,99,99,107,104,117,100",
+                        "endOffsets": "148,250,350,450,558,663,781,882"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "108,206,308,408,508,616,721,839",
+                        "endColumns": "97,101,99,99,107,104,117,100",
+                        "endOffsets": "201,303,403,503,611,716,834,935"
+                    }
+                }
+            ]
+        }
+    ]
+}
