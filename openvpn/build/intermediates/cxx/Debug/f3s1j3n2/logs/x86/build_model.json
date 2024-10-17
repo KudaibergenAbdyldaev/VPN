@@ -10,7 +10,7 @@
   },
   "cxxBuildFolder": "/Users/kuka/StudioProjects/Vpn/openvpn/.cxx/Debug/f3s1j3n2/x86",
   "soFolder": "/Users/kuka/StudioProjects/Vpn/openvpn/build/intermediates/cxx/Debug/f3s1j3n2/obj/x86",
-  "soRepublishFolder": "/Users/kuka/StudioProjects/Vpn/openvpn/build/intermediates/cmake/skeletonOvpn2Debug/obj/x86",
+  "soRepublishFolder": "/Users/kuka/StudioProjects/Vpn/openvpn/build/intermediates/cmake/skeletonOvpn23Debug/obj/x86",
   "abiPlatformVersion": 21,
   "cmake": {
     "effectiveConfiguration": {
@@ -22,7 +22,7 @@
     "buildSystemArgumentList": [],
     "cFlagsList": [],
     "cppFlagsList": [],
-    "variantName": "skeletonOvpn2Debug",
+    "variantName": "skeletonOvpn23Debug",
     "isDebuggableEnabled": true,
     "validAbiList": [
       "armeabi-v7a",
