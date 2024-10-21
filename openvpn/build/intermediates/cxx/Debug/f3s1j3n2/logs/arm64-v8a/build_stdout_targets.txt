@@ -1,2 +1,0 @@
-ninja: Entering directory `/Users/kuka/StudioProjects/Vpn/openvpn/.cxx/Debug/f3s1j3n2/arm64-v8a'
-[1/1] cd /Users/kuka/StudioProjects/Vpn/openvpn/.cxx/Debug/f3s1j3n2/arm64-v8a && /Users/kuka/Library/Android/sdk/cmake/3.22.1/bin/cmake -E make_directory /Users/kuka/StudioProjects/Vpn/openvpn/src/main/cpp/../../../build/ovpnassets
