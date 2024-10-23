@@ -1,0 +1,119 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 21 min SDK version: x86",
+    "file_": "C:\\Users\\User\\AndroidStudioProjects\\VPN3\\openvpn\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "skeletonOvpn2Debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON C:\\Users\\User\\AndroidStudioProjects\\VPN3\\openvpn\\.cxx\\Debug\\f3s1j3n2\\x86\\android_gradle_build.json due to:",
+    "file_": "C:\\Users\\User\\AndroidStudioProjects\\VPN3\\openvpn\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "skeletonOvpn2Debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "- no fingerprint file, will remove stale configuration folder",
+    "file_": "C:\\Users\\User\\AndroidStudioProjects\\VPN3\\openvpn\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "skeletonOvpn2Debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027C:\\Users\\User\\AndroidStudioProjects\\VPN3\\openvpn\\.cxx\\Debug\\f3s1j3n2\\x86\u0027",
+    "file_": "C:\\Users\\User\\AndroidStudioProjects\\VPN3\\openvpn\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "skeletonOvpn2Debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027C:\\Users\\User\\AndroidStudioProjects\\VPN3\\openvpn\\.cxx\\Debug\\f3s1j3n2\\x86\u0027",
+    "file_": "C:\\Users\\User\\AndroidStudioProjects\\VPN3\\openvpn\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "skeletonOvpn2Debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake @echo off\n\"C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.22.1\\\\bin\\\\cmake.exe\" ^\n  \"-HC:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\VPN3\\\\openvpn\\\\src\\\\main\\\\cpp\" ^\n  \"-DCMAKE_SYSTEM_NAME\u003dAndroid\" ^\n  \"-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\" ^\n  \"-DCMAKE_SYSTEM_VERSION\u003d21\" ^\n  \"-DANDROID_PLATFORM\u003dandroid-21\" ^\n  \"-DANDROID_ABI\u003dx86\" ^\n  \"-DCMAKE_ANDROID_ARCH_ABI\u003dx86\" ^\n  \"-DANDROID_NDK\u003dC:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\27.0.12077973\" ^\n  \"-DCMAKE_ANDROID_NDK\u003dC:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\27.0.12077973\" ^\n  \"-DCMAKE_TOOLCHAIN_FILE\u003dC:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\27.0.12077973\\\\build\\\\cmake\\\\android.toolchain.cmake\" ^\n  \"-DCMAKE_MAKE_PROGRAM\u003dC:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.22.1\\\\bin\\\\ninja.exe\" ^\n  \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\VPN3\\\\openvpn\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\f3s1j3n2\\\\obj\\\\x86\" ^\n  \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\VPN3\\\\openvpn\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\f3s1j3n2\\\\obj\\\\x86\" ^\n  \"-DCMAKE_BUILD_TYPE\u003dDebug\" ^\n  \"-BC:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\VPN3\\\\openvpn\\\\.cxx\\\\Debug\\\\f3s1j3n2\\\\x86\" ^\n  -GNinja\n",
+    "file_": "C:\\Users\\User\\AndroidStudioProjects\\VPN3\\openvpn\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "skeletonOvpn2Debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "@echo off\n\"C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.22.1\\\\bin\\\\cmake.exe\" ^\n  \"-HC:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\VPN3\\\\openvpn\\\\src\\\\main\\\\cpp\" ^\n  \"-DCMAKE_SYSTEM_NAME\u003dAndroid\" ^\n  \"-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\" ^\n  \"-DCMAKE_SYSTEM_VERSION\u003d21\" ^\n  \"-DANDROID_PLATFORM\u003dandroid-21\" ^\n  \"-DANDROID_ABI\u003dx86\" ^\n  \"-DCMAKE_ANDROID_ARCH_ABI\u003dx86\" ^\n  \"-DANDROID_NDK\u003dC:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\27.0.12077973\" ^\n  \"-DCMAKE_ANDROID_NDK\u003dC:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\27.0.12077973\" ^\n  \"-DCMAKE_TOOLCHAIN_FILE\u003dC:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\27.0.12077973\\\\build\\\\cmake\\\\android.toolchain.cmake\" ^\n  \"-DCMAKE_MAKE_PROGRAM\u003dC:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.22.1\\\\bin\\\\ninja.exe\" ^\n  \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\VPN3\\\\openvpn\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\f3s1j3n2\\\\obj\\\\x86\" ^\n  \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\VPN3\\\\openvpn\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\f3s1j3n2\\\\obj\\\\x86\" ^\n  \"-DCMAKE_BUILD_TYPE\u003dDebug\" ^\n  \"-BC:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\VPN3\\\\openvpn\\\\.cxx\\\\Debug\\\\f3s1j3n2\\\\x86\" ^\n  -GNinja\n",
+    "file_": "C:\\Users\\User\\AndroidStudioProjects\\VPN3\\openvpn\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "skeletonOvpn2Debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "Received process result: 1",
+    "file_": "C:\\Users\\User\\AndroidStudioProjects\\VPN3\\openvpn\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "skeletonOvpn2Debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed with problem. Exception: com.android.ide.common.process.ProcessException: -- The C compiler identification is Clang 18.0.1\n-- The CXX compiler identification is Clang 18.0.1\n-- Detecting C compiler ABI info\n-- Detecting C compiler ABI info - done\n-- Check for working C compiler: C:/Users/User/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe - skipped\n-- Detecting C compile features\n-- Detecting C compile features - done\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: C:/Users/User/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- The ASM compiler identification is Clang with GNU-like command-line\n-- Found assembler: C:/Users/User/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe\n-- Configuring incomplete, errors occurred!\nSee also \"C:/Users/User/AndroidStudioProjects/VPN3/openvpn/.cxx/Debug/f3s1j3n2/x86/CMakeFiles/CMakeOutput.log\".\nSee also \"C:/Users/User/AndroidStudioProjects/VPN3/openvpn/.cxx/Debug/f3s1j3n2/x86/CMakeFiles/CMakeError.log\".\n\nC++ build system [configure] failed while executing:\n    @echo off\n    \"C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.22.1\\\\bin\\\\cmake.exe\" ^\n      \"-HC:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\VPN3\\\\openvpn\\\\src\\\\main\\\\cpp\" ^\n      \"-DCMAKE_SYSTEM_NAME\u003dAndroid\" ^\n      \"-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\" ^\n      \"-DCMAKE_SYSTEM_VERSION\u003d21\" ^\n      \"-DANDROID_PLATFORM\u003dandroid-21\" ^\n      \"-DANDROID_ABI\u003dx86\" ^\n      \"-DCMAKE_ANDROID_ARCH_ABI\u003dx86\" ^\n      \"-DANDROID_NDK\u003dC:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\27.0.12077973\" ^\n      \"-DCMAKE_ANDROID_NDK\u003dC:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\27.0.12077973\" ^\n      \"-DCMAKE_TOOLCHAIN_FILE\u003dC:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\27.0.12077973\\\\build\\\\cmake\\\\android.toolchain.cmake\" ^\n      \"-DCMAKE_MAKE_PROGRAM\u003dC:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.22.1\\\\bin\\\\ninja.exe\" ^\n      \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\VPN3\\\\openvpn\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\f3s1j3n2\\\\obj\\\\x86\" ^\n      \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\VPN3\\\\openvpn\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\f3s1j3n2\\\\obj\\\\x86\" ^\n      \"-DCMAKE_BUILD_TYPE\u003dDebug\" ^\n      \"-BC:\\\\Users\\\\User\\\\AndroidStudioProjects\\\\VPN3\\\\openvpn\\\\.cxx\\\\Debug\\\\f3s1j3n2\\\\x86\" ^\n      -GNinja\n  from C:\\Users\\User\\AndroidStudioProjects\\VPN3\\openvpn\nOpenVPN 2.x version ecfe3ae\nOpenVPN 3.x version ecfe3ae\nCMake Error at C:/Users/User/AppData/Local/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):\n  Could NOT find SWIG (missing: SWIG_EXECUTABLE SWIG_DIR) (Required is at\n  least version \"3.0\")\nCall Stack (most recent call first):\n  C:/Users/User/AppData/Local/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)\n  C:/Users/User/AppData/Local/Android/Sdk/cmake/3.22.1/share/cmake-3.22/Modules/FindSWIG.cmake:153 (find_package_handle_standard_args)\n  CMakeLists.txt:41 (FIND_PACKAGE)",
+    "file_": "C:\\Users\\User\\AndroidStudioProjects\\VPN3\\openvpn\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "skeletonOvpn2Debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  }
+]
