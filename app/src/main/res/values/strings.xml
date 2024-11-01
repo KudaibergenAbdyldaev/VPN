@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">Vpn</string>
-    <string name="get_started">By clicking ‘Get Started’ you are agree to\n
-<b>Privacy Policy</b> &amp; <b>Terms and Conditions</b> </string>
-    <string name="btn_get_started">Get Started</string>
+    <string name="app_name" translatable="false">Vpn</string>
+    <string name="get_started" translatable="false">By clicking ‘Get Started’ you are agree to\n
+    <b>Privacy Policy</b> &amp; <b>Terms and Conditions</b> </string>
+    <string name="btn_get_started" translatable="false">Get Started</string>
+    <string name="choose_location" translatable="false">Choose Location</string>
+    <string name="auto_connect" translatable="false">Tap &amp; Auto Connect Fastest Server</string>
 </resources>
